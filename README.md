@@ -22,10 +22,10 @@ Designed with future expansions including ML models and third-party integrations
 
 ## Tech Stack Used
 
-✔ HTML, CSS, JavaScript
-✔ Backend (Node.js / Python API)
-✔ AI / ML components (future scope)
-✔ Version control: Git & GitHub
+✔ HTML, CSS, JavaScript.
+✔ Backend (Node.js / Python API).
+✔ AI / ML components (future scope).
+✔ Version control: Git & GitHub.
 
 ## Notes
 
