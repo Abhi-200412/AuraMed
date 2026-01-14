@@ -3,7 +3,7 @@ AuraMed is a healthcare application aimed at enhancing medical diagnostics, pati
 
 This repository contains the code and documentation for the first version of AuraMed that I built and pushed to GitHub.
 
-##Features
+## Features
 
 ✨ AI-Powered Clinical Assistance
 Leverages intelligent logic to support clinical decisions and suggest insights based on patient data.
@@ -20,13 +20,14 @@ A clean and interactive interface for both doctors and patients.
 ☁️ Modular & Scalable
 Designed with future expansions including ML models and third-party integrations.
 
-##Tech Stack Used
+## Tech Stack Used
 
 ✔ HTML, CSS, JavaScript
 ✔ Backend (Node.js / Python API)
 ✔ AI / ML components (future scope)
 ✔ Version control: Git & GitHub
 
-##Notes
+## Notes
+
 The Documentation regarding the project is provided in the 'docs' folder.
 All the information on Getting Started and on the project has been provided there.
