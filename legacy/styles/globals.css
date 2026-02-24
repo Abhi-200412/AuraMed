@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Futuristic glassmorphism */
+.glass {
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.04);
+}
+
+.neon {
+  box-shadow: 0 0 18px rgba(59,130,246,0.3), inset 0 0 12px rgba(99,102,241,0.08);
+}
+
+/* small animation-delay utilities */
+@layer utilities {
+  .animation-delay-200 { animation-delay: 0.2s; }
+  .animation-delay-400 { animation-delay: 0.4s; }
+}
+
+/* high-contrast support */
+.hc {
+  filter: contrast(1.25) saturate(1.1);
+}
+
+/* accessible focus ring */
+:focus {
+  outline: 2px dashed rgba(99,102,241,0.6);
+  outline-offset: 3px;
+}

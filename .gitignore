@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+.venv/
+.venv_311/
+venv_cuda/
+__pycache__/
+
+# Build
+.next/
+dist/
+build/
+
+# Environment Variables (Security)
+.env
+.env.local
+.env.*.local
+
+# Large Files & Data
+*.pth
+*.pt
+data/
+dataset/
+temp_files/
+
+# Logs
+*.log
+npm-debug.log
+
+# IDE
+.vscode/
+.idea/
+
+# Missing ignored files/folders to add:
+kaggle.json
+venv/
+temp/
+tsconfig.tsbuildinfo

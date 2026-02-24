@@ -1,0 +1,13 @@
+{
+    "name": "aura-med-root",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev-backend": "uvicorn backend.app:app --reload",
+        "dev-frontend": "cd frontend && npm run dev",
+        "dev-all": "concurrently \"npm run dev-backend\" \"npm run dev-frontend\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
